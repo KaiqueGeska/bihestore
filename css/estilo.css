@@ -1,0 +1,289 @@
+body {
+    background-color: #000;
+    max-width: 100%;
+    width: auto;
+}
+
+.container {
+    background-color: #000;
+    display: grid;
+    gap: 5px;
+    grid-template-areas:
+        'header'
+        'menu'
+        'banner'
+        'conteudo'
+        'rodape'
+}
+
+#header {
+    grid-area: header;
+}
+
+#menu {
+    grid-area: menu;
+
+}
+
+#banner {
+    grid-area: banner;
+}
+
+#conteudo {
+    grid-area: conteudo;
+
+}
+
+#rodape {
+    grid-area: rodape;
+}
+
+.logo-bihe {
+    position: absolute;
+    left: 0%;
+    top: -8%;
+    max-width: 50%;
+    max-height: 50%;
+    width: auto;
+    height: auto;
+
+}
+
+.logo-whatsapp {
+    position: absolute;
+    left: 79%;
+    top: 6%;
+    max-width: 18%;
+    max-height: 18%;
+    width: auto;
+    height: auto;
+}
+
+
+.logo-instagram {
+    position: absolute;
+    left: 90%;
+    top: 7%;
+    max-width: 15%;
+    max-height: 15%;
+    width: auto;
+    height: auto;
+}
+
+.input1 {
+    background-color: #000;
+    color: #fff;
+
+}
+
+.form-control {
+    position: absolute;
+    top: 12%;
+    left: 28%;
+    border: 5px solid #fff;
+    border-radius: 50px;
+    width: 41%;
+
+}
+
+.form-control input {
+    border: 2px;
+    display: block;
+    border-radius: 50px;
+    font-size: 100%;
+    width: 96%;
+    height: 10px;
+    padding: 10px;
+}
+
+
+.menu-lista {
+
+    width: 97%;
+    font-family: 'Alta';
+    font-size: small;
+    font-size: 100%;
+    position: absolute;
+    flex-shrink: 0;
+    height: 40px;
+    left: 0px;
+    top: 155px;
+    background: linear-gradient(180deg, #9B9B9B 0%, #FFF 100%);
+
+}
+
+.menu-lista-item {
+
+    display: inline-block;
+    margin: 0 16px;
+    margin-left: 15px;
+    font-size: 20px;
+
+
+
+    top: 125px;
+    color: #000;
+    height: 23px;
+
+    display: inline-block;
+    padding: 4px;
+    padding-right: 64px;
+
+    margin: 0 7px;
+
+}
+
+.slideshow {
+    position: absolute;
+    left: 0px;
+    top: 210px;
+
+
+    width: 100%;
+    height: 60%;
+
+}
+
+.titulo {
+    margin-top: 600px;
+    position: relative;
+    text-align: center;
+    color: #FFF;
+    font-family: 'Alta';
+    font-size: 320%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.degrade {
+    position: absolute;
+    left: 0px;
+    top: 55 0px;
+    width: 1223px;
+
+    height: 800px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, #000 0%, #6C6C6C 41.67%, #FFF 100%);
+
+}
+
+
+.imagens-geral-col1 {
+
+    position: relative;
+    text-align: S;
+    width: 90%;
+    position: absolute;
+    flex-shrink: 0;
+    height: 40px;
+    left: 100px;
+    right: 100px;
+    top: 700px;
+}
+
+.imagens-individual-col1 {
+    display: inline-block;
+    margin: 0 16px;
+    margin-left: 15px;
+    top: 125px;
+    height: 23px;
+
+    display: inline-block;
+    padding: 4px;
+    padding-right: 64px;
+
+    margin: 0 0;
+}
+
+.tamanhoimg {
+    max-width: 1200%;
+    max-height: 1200%;
+    width: auto;
+    height: auto;
+
+}
+
+.tituloProdutos {
+    color: #FFF;
+    font-family: 'Alta';
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.rodape-item-titulo {
+    font-size: 20px;
+    color: #000;
+    display: inline-block;
+    padding-left: 100px;
+    margin: 0 7px;
+
+
+}
+
+.rodape-item-texto {
+
+
+    font-size: 14px;
+    color: #000;
+
+
+    display: inline-block;
+    padding: 4px;
+    padding-left: 100px;
+    margin: 0 7px;
+}
+
+.corRodape {
+    position: absolute;
+    left: 0px;
+    top: 1425px;
+    width: 1223px;
+
+    height: 450px;
+    flex-shrink: 0;
+    background-color: #FFF;
+
+}
+
+.titulo2 {
+    margin-top: 50px;
+    position: relative;
+    text-align: center;
+    color: #000;
+    font-family: 'Alta';
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.form-control2 {
+    position: absolute;
+    margin-top: 0px;
+    left: 28%;
+    border: 5px solid #000000;
+    border-radius: 50px;
+    width: 41%;
+}
+
+.form-control2 input {
+    border: 2px;
+    display: block;
+    border-radius: 50px;
+    font-size: 100%;
+    width: 96%;
+    height: 10px;
+    padding: 10px;
+
+}
+
+.input2 {
+    background-color: #fff;
+    color: #000;
+
+}
+
+
