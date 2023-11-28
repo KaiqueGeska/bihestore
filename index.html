@@ -3,67 +3,87 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>BiheStore</title>
+    <title>Bihe Store</title>
 </head>
 
 <body>
     <link rel="stylesheet" href="css/estilo.css">
 
-    <div class="logo-bihe"> <img src="img/LogoBihe.jpeg" width="300" height="300"> </div>
-    <div class="logo-whatsapp"> <a href="https://bio.site/bihestore"><img src="img/LogoWhatsapp.jpeg" width="100"
-                height="100"></a> </div>
-    <div class="logo-instagram"> <a href="https://www.instagram.com/bihestore/"><img src="img/LogoInstagram.jpeg"
-                width="80" height="80"> </a> </div>
-    <div class="form-control"> <input class="input1" type="text" id="username" placeholder="Pesquisar..." /> </div>
-
-    <ul class="menu-lista">
-        <li class="menu-lista-item"><a href="empresa.html">Empresa</a></li>
-        <li class="menu-lista-item"> <a href="contatos.html">Contatos</a></li>
-        <li class="menu-lista-item"><a href="feminino.html">Feminino</a></li>
-        <li class="menu-lista-item"><a href="masculino.html">Masculino</a></li>
-        <li class="menu-lista-item"><a href="calçados.html">Calçados</a></li>
-        <li class="menu-lista-item"><a href="bolsas.html">Bolsas</a></li>
-        <li class="menu-lista-item"><a href="promocoes.html">Promoçoes</a></li>
-    </ul>
-
-    <div class="banner"><img class="slideshow" width="1263" height="350"> </div>
-    <script src="js/slideShow.js"></script>
-
-    <ul class="degrade"> </ul>
-
-    <p class="titulo">Produtos destaques</p>
-
-    <div class="imagens-geral-col1">
-        <div class="imagens-individual-col1"><img src="img/allstar.png" width="280" height="280"> <br>
-            <div class="tituloProdutos"> All Star </div>
-        </div>
-        <div class="imagens-individual-col1"><img src="img/Tshirts.png" width="280" height="280">
-            <div class="tituloProdutos"> T-shirts </div>
-        </div>
-        <div class="imagens-individual-col1"><img src="img/FotoCamisetas masculinas.png" width="280" height="280">
-            <div class="tituloProdutos"> Camisetas masculinas </div>
+    <div class="container" id="template-areas">
+        <div id="header">
+            <div> <a href="index.html"> <img class="logo-bihe" src="img/LogoBihe.jpeg"></a> </div>
+            <div class="form-control"> <input class="input1" type="text" id="username" placeholder="Pesquisar..." />
+            </div>
+            <div> <a href="https://bio.site/bihestore"><img class="logo-whatsapp" src="img/LogoWhatsapp.jpeg"></a>
+            </div>
+            <div> <a href="https://www.instagram.com/bihestore/"><img class="logo-instagram"
+                        src="img/LogoInstagram.jpeg"> </a> </div>
         </div>
 
-
-        <div class="imagens-individual-col1"> <br> <br> <img src="img/FotoConjuntoCrepe.png" width="280" height="280">
-            <div class="tituloProdutos"> Conjunto crepe </div>
-        </div>
-        <div class="imagens-individual-col1"><img src="img/FotoVert.png" width="280" height="280">
-            <div class="tituloProdutos"> Vert </div>
-        </div>
-        <div class="imagens-individual-col1"><img src="img/FotoAirForce.png" width="280" height="280">
-            <div class="tituloProdutos"> Air force </div>
-        </div>
     </div>
 
-    <p class="titulo2">Receba nossas novidades</p>
+
+    <div id="menu">
+        <ul class="menu-lista">
+            <center>
+                <li class="menu-lista-item"><a href="empresa.html">Empresa</a></li>
+                <li class="menu-lista-item"> <a href="contatos.html">Contatos</a></li>
+                <li class="menu-lista-item"><a href="feminino.html">Feminino</a></li>
+                <li class="menu-lista-item"><a href="masculino.html">Masculino</a></li>
+                <li class="menu-lista-item"><a href="calçados.html">Calçados</a></li>
+                <li class="menu-lista-item"><a href="bolsas.html">Bolsas</a></li>
+                <li class="menu-lista-item"><a href="promocoes.html">Promoçoes</a></li>
+        </ul>
+        </center>
+    </div>
+    <div id="banner">
+        <div class="banner"> <img class="slideshow"> </div>
+        <script src="js/slideshow.js"></script>
+    </div>
+    <div id="conteudo">
+        <ul class="degrade"> </ul>
+          <ul class="corRodape"> </ul>
+        <p class="titulo">Produtos destaques</p>
+
+        <div class="imagens-geral-col1">
+            <div class="imagens-individual-col1"><img class="tamanhoimg" src="img/allstar.png"> <br>
+                <CENTER>        
+                    <div class="tituloProdutos"> All Star </div>
+                </CENTER>
+            </div>
+            <div class="imagens-individual-col1"><img class="tamanhoimg" src="img/Tshirts.png">
+                <CENTER>
+                    <div class="tituloProdutos"> T-shirts </div>
+                </CENTER>
+            </div>
+            <div class="imagens-individual-col1"><img class="tamanhoimg" src="img/FotoCamisetas masculinas.png">
+                <CENTER>
+                    <div class="tituloProdutos"> Camisetas masculinas </div>
+                </CENTER>
+            </div>
+
+
+            <div class="imagens-individual-col1"> <br> <br> <img class="tamanhoimg" src="img/FotoConjuntoCrepe.png">
+                <CENTER>
+                    <div class="tituloProdutos"> Conjunto crepe </div>
+                </CENTER>
+            </div>
+            <div class="imagens-individual-col1"><img class="tamanhoimg" src="img/FotoVert.png">
+                <center>
+                    <div class="tituloProdutos"> Vert </div>
+                </center>
+            </div>
+            <div class="imagens-individual-col1"><img class="tamanhoimg" src="img/FotoAirForce.png">
+                <center>
+                    <div class="tituloProdutos"> Air force </div>
+                </center>
+            </div>
+            <p class="titulo2">Receba nossas novidades</p>
 
     <div class="form-control2"> <input class="input2" type="text" id="username" placeholder="email" /> </div>
-
-
-    <ul class="rodape">
-        <ul class="rodape-item">
-            <ul class="rodape-esquerda">
+              
+            <div class="imagens-individual-col1">
+                <BR><BR><BR><BR><BR><BR>
                 <li class="rodape-item-titulo">Categorias</li> <br>
                 <li class="rodape-item-texto"><a href="empresa.html">Empresa</a></li><br>
                 <li class="rodape-item-texto"> <a href="contatos.html">Contatos</a></li><br>
@@ -72,25 +92,29 @@
                 <li class="rodape-item-texto"><a href="calçados.html">Calçados</a></li><br>
                 <li class="rodape-item-texto"><a href="bolsas.html">Bolsas</a></li><br>
                 <li class="rodape-item-texto"><a href="promocoes.html">Promoçoes</a></li>
-            </ul>
-            <ul class="rodape-centro">
+            </div>
+
+            <div class="imagens-individual-col1">
                 <li class="rodape-item-titulo">Contato Francisco Beltrão</li> <br>
                 <li class="rodape-item-texto"><img src="img/LogoWhatsappPreta .jpeg" width="20" height="20"> 46
                     9913-1915</li><br> <br>
                 <li class="rodape-item-titulo">Contato Goioerê</li> <br>
                 <li class="rodape-item-texto"><img src="img/LogoWhatsappPreta .jpeg" width="20" height="20">44 9142-9481
                 </li><br> <br>
+                
+            </div>  
+
+            <div class="imagens-individual-col1">
                 <li class="rodape-item-titulo">E-mail</li> <br>
                 <li class="rodape-item-texto"> bihe.loja@gmail.com </li><br> <br>
-            </ul>
-            <ul class="rodape-direita">
                 <li class="rodape-item-titulo">Siga nos nas redes sociais</li> <br>
                 <li class="rodape-item-texto"><img src="img/LogoInstagramFundoBranco.png" width="20" height="20">
                     @bihestore</li><br> <br>
-            </ul>
-        </ul>
-    </ul>
+            </div>
 
+        </div>
+
+    </div>
 
 </body>
 
