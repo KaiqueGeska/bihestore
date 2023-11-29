@@ -4,6 +4,18 @@ body {
     width: auto;
 }
 
+@media (max-width: 768px) {
+    .category {
+        width: calc(33.33% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .category {
+        width: calc(100% - 20px);
+    }
+}
+
 .container {
     background-color: #000;
     display: grid;
